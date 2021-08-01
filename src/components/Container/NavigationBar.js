@@ -13,20 +13,18 @@ function NavigationBar(props) {
   });
 
   useEffect(() => {
+    const changeBackground = () => {
+      if (window.scrollY > 50) {
+        setNavBar(true);
+      } else {
+        setNavBar(false);
+      }
+    };
     window.addEventListener("scroll", changeBackground);
     return () => {
-      // Unbind the event listener on clean up
       window.removeEventListener("scroll", changeBackground);
     };
   }, []);
-
-  const changeBackground = () => {
-    if (window.scrollY > 50) {
-      setNavBar(true);
-    } else {
-      setNavBar(false);
-    }
-  };
 
   return (
     <Navbar
@@ -60,18 +58,13 @@ function NavigationBar(props) {
 }
 function useOutsideAlerter(ref, callBack) {
   useEffect(() => {
-    /**
-     * Alert if clicked on outside of element
-     */
     function handleClickOutside(event) {
       if (ref.current && !ref.current.contains(event.target)) {
         callBack();
       }
     }
-    // Bind the event listener
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
-      // Unbind the event listener on clean up
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [ref, callBack]);

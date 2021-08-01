@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import PageHeader from "../../components/Reuseable/PageHeader";
 import background from "../../assets/image/background-home.png";
 import Engineer from "../../assets/image/engineer.svg";
@@ -44,18 +45,20 @@ const ActionButton = () => {
       style={{ marginLeft: "-.5rem", marginRight: "-.5rem" }}
     >
       <Button
+        as={Link}
         variant="success"
         className="btn-round bg-corrnon border-corrnon m-2"
         style={{ minWidth: "170px" }}
-        href="#"
+        to="/contact"
       >
         Join us
       </Button>
       <Button
+        as={Link}
         variant="secondary"
         className="btn-round m-2"
         style={{ minWidth: "170px" }}
-        href="#"
+        to="/about-us"
       >
         About us
       </Button>{" "}

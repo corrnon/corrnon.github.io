@@ -85,10 +85,10 @@ const Legal = () => {
   return (
     <>
       <p>
-        <Link to="/">Terms & Conditions</Link>
+        <Link to="/term-and-condition">Terms & Conditions</Link>
       </p>
       <p>
-        <Link to="/">Privacy Policy</Link>
+        <Link to="/privacy-policy">Privacy Policy</Link>
       </p>
     </>
   );
