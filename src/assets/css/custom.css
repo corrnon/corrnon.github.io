@@ -1,0 +1,131 @@
+/* Color */
+
+.bg-corrnon {
+  background-color: #4ca456 !important;
+}
+
+.border-corrnon {
+  border-color: #4ca456 !important;
+}
+/* End Color */
+
+/* Weight */
+.font-weight-600 {
+  font-weight: 600 !important;
+}
+
+/* Space */
+
+.pt-9 {
+  padding-top: 7rem !important;
+}
+
+/* color */
+.o-80 {
+  opacity: 0.8 !important;
+}
+
+/* Component */
+.navbar-brand img {
+  max-height: 50px;
+  height: 45px;
+}
+
+.header {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.footer {
+  border-top: 1px solid #f1f2f3;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer .logo {
+  height: 50px;
+}
+
+.footer .icon {
+  height: 24px;
+  width: 24px;
+}
+.footer .content a {
+  font-size: 15px;
+  color: #757575;
+}
+.footer .content a:hover {
+  color: #4ca456;
+  text-decoration: none;
+}
+/*  */
+.square-item {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.square-item .content {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.square-item .content.odd {
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.square-item .content.even {
+  background-color: #f3f4f4;
+}
+
+.square-item .content img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  max-width: 200px;
+  max-height: 200px;
+}
+/* Contact info */
+.contact-information img {
+  object-fit: contain;
+}
+.contact-information img.icon {
+  opacity: 0.7;
+}
+
+.btn-send {
+  background-color: #8fd974;
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  padding: 0px 0px;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+.btn-send:hover {
+  background-color: #4ca456;
+}
+
+.btn-send:disabled {
+  background-color: #828282;
+  cursor: not-allowed;
+}
+
+p.success-message {
+  animation: colorChange 5s;
+}
+@keyframes colorChange {
+  from {
+    color: #4ca456;
+  }
+  to {
+    color: #394141;
+  }
+}
