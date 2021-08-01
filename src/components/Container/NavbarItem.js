@@ -4,14 +4,16 @@ import { NavLink } from "react-router-dom";
 
 function NavbarItem({ item }) {
   return (
-    <NavLink
+    <Nav.Link
+      as={NavLink}
+      href={`${item.to}`}
       className="nav-link"
       exact={item.exact}
       to={`${item.to}`}
       activeClassName="active"
     >
       {item.title}
-    </NavLink>
+    </Nav.Link>
   );
 }
 
