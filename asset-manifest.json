@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/corrnon/static/css/main.4a4b6a15.chunk.css",
+    "main.js": "/corrnon/static/js/main.82a41237.chunk.js",
+    "main.js.map": "/corrnon/static/js/main.82a41237.chunk.js.map",
+    "runtime-main.js": "/corrnon/static/js/runtime-main.27aa8528.js",
+    "runtime-main.js.map": "/corrnon/static/js/runtime-main.27aa8528.js.map",
+    "static/css/2.0d41a248.chunk.css": "/corrnon/static/css/2.0d41a248.chunk.css",
+    "static/js/2.ca4a9f10.chunk.js": "/corrnon/static/js/2.ca4a9f10.chunk.js",
+    "static/js/2.ca4a9f10.chunk.js.map": "/corrnon/static/js/2.ca4a9f10.chunk.js.map",
+    "static/js/3.b20bd229.chunk.js": "/corrnon/static/js/3.b20bd229.chunk.js",
+    "static/js/3.b20bd229.chunk.js.map": "/corrnon/static/js/3.b20bd229.chunk.js.map",
+    "index.html": "/corrnon/index.html",
+    "static/css/2.0d41a248.chunk.css.map": "/corrnon/static/css/2.0d41a248.chunk.css.map",
+    "static/css/main.4a4b6a15.chunk.css.map": "/corrnon/static/css/main.4a4b6a15.chunk.css.map",
+    "static/js/2.ca4a9f10.chunk.js.LICENSE.txt": "/corrnon/static/js/2.ca4a9f10.chunk.js.LICENSE.txt",
+    "static/media/background-about-us.717aa790.png": "/corrnon/static/media/background-about-us.717aa790.png",
+    "static/media/background-contact.c82d4c5f.png": "/corrnon/static/media/background-contact.c82d4c5f.png",
+    "static/media/background-home.a31542df.png": "/corrnon/static/media/background-home.a31542df.png",
+    "static/media/engineer.ea853b80.svg": "/corrnon/static/media/engineer.ea853b80.svg",
+    "static/media/ic_quote.b1eb7eba.svg": "/corrnon/static/media/ic_quote.b1eb7eba.svg",
+    "static/media/img_mobile.772e4f7e.png": "/corrnon/static/media/img_mobile.772e4f7e.png",
+    "static/media/img_more.268fedaf.png": "/corrnon/static/media/img_more.268fedaf.png",
+    "static/media/img_system_architecture.d1e56a8c.png": "/corrnon/static/media/img_system_architecture.d1e56a8c.png",
+    "static/media/img_uiux_design.a2528f30.png": "/corrnon/static/media/img_uiux_design.a2528f30.png",
+    "static/media/img_web.206b4208.png": "/corrnon/static/media/img_web.206b4208.png",
+    "static/media/my-team-animate.e17e20dc.svg": "/corrnon/static/media/my-team-animate.e17e20dc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27aa8528.js",
+    "static/css/2.0d41a248.chunk.css",
+    "static/js/2.ca4a9f10.chunk.js",
+    "static/css/main.4a4b6a15.chunk.css",
+    "static/js/main.82a41237.chunk.js"
+  ]
+}
