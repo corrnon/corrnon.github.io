@@ -72,7 +72,7 @@ const Content = () => {
     <>
       {items.map((item, index) => {
         return (
-          <p>
+          <p key={index}>
             <Link to={item.to}>{item.title}</Link>
           </p>
         );
