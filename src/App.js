@@ -1,7 +1,7 @@
+import React from "react";
 import "./App.css";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import { Layout } from "./components/Container";
-
+const Layout = React.lazy(() => import("./components/Container"));
 function App() {
   return (
     <HashRouter>
