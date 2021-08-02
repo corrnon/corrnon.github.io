@@ -1,11 +1,9 @@
 import { Redirect } from "react-router-dom";
-import React from "react";
-const Home = React.lazy(() => import("./views/Home"));
-const AboutUs = React.lazy(() => import("./views/AboutUs"));
-const Contact = React.lazy(() => import("./views/Contact"));
-const PrivacyPolicy = React.lazy(() => import("./views/PrivacyPolicy"));
-const TermAndCondition = React.lazy(() => import("./views/TermAndCondition"));
-
+import Home from "./views/Home";
+import AboutUs from "./views/AboutUs";
+import Contact from "./views/Contact";
+import PrivacyPolicy from "./views/PrivacyPolicy";
+import TermAndCondition from "./views/TermAndCondition";
 const routes = [
   {
     path: "/home",
